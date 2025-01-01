@@ -63,7 +63,6 @@ public readonly partial record struct Either<TLeft, TRight>
     /// This method sets the <paramref name="value"/> parameter to the "left" value if the <see cref="Either{TLeft, TRight}"/> is a <c>Left</c>.
     /// If the <see cref="Either{TLeft, TRight}"/> is a <c>Right</c>, the <paramref name="value"/> parameter is set to the default value.
     /// </remarks>
-    /// <returns></returns>
     public bool TryGetLeft([MaybeNullWhen(false)] out TLeft value)
     {
         if (IsLeft)

@@ -10,11 +10,7 @@ public readonly partial record struct Result<TValue>
 
     private Result(TValue value)
     {
-        if (value is null)
-        {
-            throw new ArgumentNullException(nameof(value));
-        }
-
+        ArgumentNullException.ThrowIfNull(nameof(value));
         _value = value;
     }
 
