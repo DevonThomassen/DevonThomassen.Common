@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevonThomassen.Common", "DevonThomassen.Common\DevonThomassen.Common.csproj", "{39EE437A-1D1F-4EFB-B40E-EC8434BF6D38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevonThomassen.Common.Tests", "DevonThomassen.Common.Tests\DevonThomassen.Common.Tests.csproj", "{1C65A56F-7A88-4C4A-ACF6-9DCFC6286C1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39EE437A-1D1F-4EFB-B40E-EC8434BF6D38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39EE437A-1D1F-4EFB-B40E-EC8434BF6D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39EE437A-1D1F-4EFB-B40E-EC8434BF6D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39EE437A-1D1F-4EFB-B40E-EC8434BF6D38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C65A56F-7A88-4C4A-ACF6-9DCFC6286C1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C65A56F-7A88-4C4A-ACF6-9DCFC6286C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C65A56F-7A88-4C4A-ACF6-9DCFC6286C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C65A56F-7A88-4C4A-ACF6-9DCFC6286C1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
